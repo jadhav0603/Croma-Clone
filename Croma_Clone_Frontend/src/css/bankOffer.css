@@ -1,0 +1,28 @@
+.bankContainer{
+    width: 97vw;
+    background-color: #191919;
+}
+
+.bankContainer > h2{
+    padding:1% 12%;
+}
+
+.bankOffers{
+    width: 97vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0%;
+}
+
+ /* .bankOffers > img{
+    width: 37vw;
+} */
+
+.whatsHot>img, .dealOfDay>img{
+    width: 18vw;
+  }
+
+
+
+

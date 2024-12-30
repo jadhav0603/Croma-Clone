@@ -1,0 +1,55 @@
+.footer{
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .bottom{
+    width:100vw;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+  }
+  
+  .footer{
+    width:75vw;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .footer > div {
+   width: 20vw;
+   padding: 2vw;
+  }
+  
+  .footerDivOne{
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  
+  .contactIcons{
+    width: 75%;
+    font-size: 1.8vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footerList{
+    margin-left: -3vw;
+  }
+  
+  .footerList >ul > li{
+    padding :5px;
+  }
+  
+  .footerList >ul > li:hover{
+    color: rgb(7, 187, 157);
+  }

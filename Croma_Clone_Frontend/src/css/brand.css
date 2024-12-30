@@ -1,0 +1,25 @@
+.brands{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.brands>img{
+    width:13.5vw;
+    margin-left: 10px;
+}
+
+.brandsKey{
+    border: none;
+    background-color: #191919;
+  }
+  
+  .brandsKey > i{
+    color:#393939;
+    font-size: 2vw;
+    font-weight: 700;
+  }
+  
+  

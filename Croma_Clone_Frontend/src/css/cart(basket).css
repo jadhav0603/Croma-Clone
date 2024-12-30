@@ -1,0 +1,144 @@
+.cartContainer{
+    margin: 0;
+    padding: 5.5vw 10vw;
+    background-color: #f5f4f4;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.leftContainer{
+    width:55vw;
+}
+
+.couponDiv{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 53.5vw;
+    padding: 10px;
+}
+
+.icon{
+    padding: 0px 15px;
+}
+
+.couponRightDiv{
+    display: flex;
+    justify-content: end;
+    color:rgb(212, 212, 212)
+}
+
+.couponLeftDiv{
+    padding: 12px 0px;
+}
+
+.cartCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cartCard > img{
+    width:10vw;
+    height: fit-content;
+}
+
+.cartInfo{
+    width:30vw;
+}
+
+.cartInfo > h4{
+    margin: 8px 2px;
+}
+
+.cartInfo > p{
+    margin: 8px 2px;
+}
+
+.starIcon{
+    color: rgb(202, 196, 196);
+    font-size: 1vw;
+    margin: 0;
+}
+
+.removeBtn{
+    background-color: white;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+    padding: 10px 20px;
+    border:1px solid rgb(75, 73, 73);
+    border-radius: 5px;
+}
+
+.priceDiv{
+    width:8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 5px;
+}
+
+.cartPrice{
+    margin: 0;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    font-size: 1.2vw;
+    border-bottom: 1px solid black;
+}
+
+.cartOriginalPrice{
+    margin: 0;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    font-size: 1vw;
+    border-bottom: 1px solid black;
+}
+
+.emi{
+    margin: 0;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+}
+
+.rightContainer{
+    background-color: white;
+    width:19vw;
+    height: fit-content;
+    padding: 15px;
+    position: sticky;
+    top:10vw;
+    border-radius: 5px;
+    /* margin-bottom: 95%; */
+}
+
+.rightContainer > h2{
+    font-size: 1.5vw;
+}
+
+.rightContainer > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkOut{
+    width:100%;
+    border-radius: 5px;
+    background-color: #12daa9;
+    color:black;
+    font-weight: 600;
+}

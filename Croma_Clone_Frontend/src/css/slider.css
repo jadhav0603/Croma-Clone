@@ -1,0 +1,42 @@
+
+#slider {
+    position: relative;
+    width: 100%;
+    padding: 5vw 0vw 0vw 0vw;
+    margin: auto;
+    background-color: #191919;
+  }
+  
+  .slider img {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  
+  .slider img.active {
+    opacity: 1;
+  }
+  
+  
+  /* Dot navigation styles */
+  .dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 2px;
+    width: 5vw;
+    margin: 0 2px;
+    background-color: gray;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    bottom:3vw
+  }
+  
+  .dot.active {
+    background-color: black;
+  }
+  
