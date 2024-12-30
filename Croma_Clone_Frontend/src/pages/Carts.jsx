@@ -22,7 +22,7 @@ function Carts() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await axios.get("http://localhost:5001/basket/carts");
+                const response = await axios.get("https://croma-clone-backend-19i6.onrender.com/basket/carts");
                 console.log("fetched carts data : ", response.data);
                 setCartData(response.data);
             } catch (error) {
@@ -35,7 +35,7 @@ function Carts() {
 
     const handleDelete = async(ele)=>{
         try {
-            const response = await axios.delete(`http://localhost:5001/basket/delete/${ele._id}`);
+            const response = await axios.delete(`https://croma-clone-backend-19i6.onrender.com/basket/delete/${ele._id}`);
             console.log("item deleted successfully :", response.data)
             setCartData((prev) => prev.filter((item) => item._id !== ele._id))
         } catch (error) {
@@ -48,7 +48,7 @@ function Carts() {
         if(isLogin){
             Navigate('/payment')
             try {
-                const response = await axios.delete(`http://localhost:5001/basket/deleteAll`);
+                const response = await axios.delete(`https://croma-clone-backend-19i6.onrender.com/basket/deleteAll`);
                 // console.log("item deleted successfully :", response.data)
                 setCartData(response.data)
             } catch (error) {

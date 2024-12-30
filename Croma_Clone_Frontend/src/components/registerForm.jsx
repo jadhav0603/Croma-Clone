@@ -17,7 +17,7 @@ const RegisterForm = ({ closeLogin }) => {
 
   const handleRegister = async () => {
     try {
-      await axios.post("https://croma-clone-backend-d0pfyh5zg-vijays-projects-f2f3793e.vercel.app/register", { name, email, mobile, password: regPassword })
+      await axios.post("https://croma-clone-backend-19i6.onrender.com/register", { name, email, mobile, password: regPassword })
         .then((response) => {
           if (response.data.alert) {
             alert(response.data.msg)
