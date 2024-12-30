@@ -1,5 +1,5 @@
 const express = require('express');
-const bcrypt = require('bcrypt');
+const bcryptjs = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const userModel = require('../models/userRegisterSchema');
 const router = express.Router();
@@ -15,8 +15,8 @@ router.post('/register', async (req, res) => {
       return res.status(400).json({alert:true, msg:'Entered Details Already Exists'})
     }
 
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
+    const salt = await bcryptjs.genSalt(10);
+    const hashedPassword = await bcryptjs.hash(password, salt);
 
     const newUser = new userModel({ name,email,mobile, password: hashedPassword });
     await newUser.save();
@@ -40,7 +40,7 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({alert:true, msg:'Invalid username'});
     } 
 
-    const isPasswordMatch = await bcrypt.compare(password, user.password);
+    const isPasswordMatch = await bcryptjs.compare(password, user.password);
     if (!isPasswordMatch){
       return res.status(400).json({alert:true, msg:'Invalid password'});
     }
