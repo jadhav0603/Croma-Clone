@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
-import LoginForm from "./loginForm";
+import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 import "../css/loginModal.css";
 
