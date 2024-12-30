@@ -11,7 +11,8 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: 'croma-clone-backend-d0pfyh5zg-vijays-projects-f2f3793e.vercel.app',
+    origin: '',
+    methods: ["POST", "GET"],
     credentials: true,
   }))
 
