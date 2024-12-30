@@ -3,8 +3,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
-import LoginForm from "./LoginForm";
-import RegisterForm from "./RegisterForm";
+import LoginForm from "./loginForm";
+import RegisterForm from "./registerForm";
 import "../css/loginModal.css";
 
 const LoginModal = ({ closeLogin }) => {
