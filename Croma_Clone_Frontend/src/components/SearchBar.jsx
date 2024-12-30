@@ -17,7 +17,7 @@ function SearchBar() {
     }
 
     console.log("run handle search", searchVal)
-    const response = await axios.get(`http://localhost:5001/search/${searchVal}`)
+    const response = await axios.get(`https://croma-clone-backend.vercel.app/search/${searchVal}`)
     console.log("searched Data = ",response.data)
     const data = response.data
     Navigate('/seachedData', {state:{data}})

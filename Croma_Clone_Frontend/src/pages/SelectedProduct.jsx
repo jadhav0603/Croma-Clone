@@ -54,7 +54,7 @@ function SelectedProduct() {
     if (productData && Object.keys(productData).length > 0) {
       try {
         const response = await axios.post(
-          "http://localhost:5001/products/cart",
+          "https://croma-clone-backend.vercel.app/products/cart",
           productData
         );
 

@@ -16,7 +16,7 @@ const LoginForm = ({ closeLogin }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5001/login", { username, password })
+      const response = await axios.post("https://croma-clone-backend.vercel.app/login", { username, password })
     
         if(response.data.alert){
           setIsLogin(true)
