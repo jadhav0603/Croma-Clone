@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from '../assets/Images/Home/bank_offers/img1.webp';
-import img2 from "../assets/Images/Home/bank_offers/img2.webp";
-import img3 from "../assets/Images/Home/bank_offers/img3.webp";
-import img4 from "../assets/Images/Home/bank_offers/img4.webp";
+import img1 from '/Home/bank_offers/img1.webp';
+import img2 from "/Home/bank_offers/img2.webp";
+import img3 from "/Home/bank_offers/img3.webp";
+import img4 from "/Home/bank_offers/img4.webp";
 import '../css/bankOffer.css'
 import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react'

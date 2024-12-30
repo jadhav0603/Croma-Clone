@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 import '../css/slider.css';
-import img1 from "../assets/Images/Home/home_page_slider_img/img1.webp"
-import img2 from "../assets/Images/Home/home_page_slider_img/img2.webp"
-import img3 from "../assets/Images/Home/home_page_slider_img/img3.webp"
-import img4 from "../assets/Images/Home/home_page_slider_img/img4.webp"
-// import img5 from "../assets/Images/Home/home_page_slider_img/img5.webp"
-import img6 from "../assets/Images/Home/home_page_slider_img/img6.webp"
-import img7 from "../assets/Images/Home/home_page_slider_img/img7.webp"
-import img9 from "../assets/Images/Home/home_page_slider_img/img9.webp"
+import img1 from "/Home/home_page_slider_img/img1.webp"
+import img2 from "/Home/home_page_slider_img/img2.webp"
+import img3 from "/Home/home_page_slider_img/img3.webp"
+import img4 from "/Home/home_page_slider_img/img4.webp"
+// import img5 from "/Home/home_page_slider_img/img5.webp"
+import img6 from "/Home/home_page_slider_img/img6.webp"
+import img7 from "/Home/home_page_slider_img/img7.webp"
+import img9 from "/Home/home_page_slider_img/img9.webp"
 
 function Slider() {
   const imgArray = [

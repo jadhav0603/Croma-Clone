@@ -1,4 +1,3 @@
-// Menu.js
 import React from 'react';
 
 

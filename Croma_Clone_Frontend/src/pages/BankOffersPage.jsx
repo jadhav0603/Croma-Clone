@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/Images/BankOfferPage/BankOfferPage.png"
+import img from "/BankOfferPage/BankOfferPage.png"
 
 function BankOffersPage(){
     return(

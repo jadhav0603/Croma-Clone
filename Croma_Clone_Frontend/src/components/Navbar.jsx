@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/Images/Home/croma_logo/Croma_logo-removebg.png";
+import logo from "/Home/croma_logo/Croma_logo-removebg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 

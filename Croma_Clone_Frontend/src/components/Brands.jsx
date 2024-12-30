@@ -1,16 +1,16 @@
 import React from "react";
 import '../css/brand.css'
-import img1 from "../assets/images/Home/why_croma/img1.webp"
+import img1 from "/Home/why_croma/img1.webp"
 
-import brand1 from "../assets/images/Home/why_croma/brands/img1.webp"
-import brand2 from "../assets/images/Home/why_croma/brands/img2.webp"
-import brand3 from "../assets/images/Home/why_croma/brands/img3.webp"
-import brand4 from "../assets/images/Home/why_croma/brands/img4.webp"
-import brand5 from "../assets/images/Home/why_croma/brands/img5.webp"
-import brand6 from "../assets/images/Home/why_croma/brands/img6.webp"
-import brand7 from "../assets/images/Home/why_croma/brands/img7.webp"
-import brand8 from "../assets/images/Home/why_croma/brands/img8.webp"
-import brand9 from "../assets/images/Home/why_croma/brands/img9.webp"
+import brand1 from "/Home/why_croma/brands/img1.webp"
+import brand2 from "/Home/why_croma/brands/img2.webp"
+import brand3 from "/Home/why_croma/brands/img3.webp"
+import brand4 from "/Home/why_croma/brands/img4.webp"
+import brand5 from "/Home/why_croma/brands/img5.webp"
+import brand6 from "/Home/why_croma/brands/img6.webp"
+import brand7 from "/Home/why_croma/brands/img7.webp"
+import brand8 from "/Home/why_croma/brands/img8.webp"
+import brand9 from "/Home/why_croma/brands/img9.webp"
 
 function Brands() {
 

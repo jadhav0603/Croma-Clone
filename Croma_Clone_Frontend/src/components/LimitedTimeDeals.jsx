@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/images//Home/limited_times_offers/img1.webp"
-import img2 from "../assets/images//Home/limited_times_offers/img2.webp"
-import img3 from "../assets/images//Home/limited_times_offers/img3.webp"
+import img1 from "/Home/limited_times_offers/img1.webp"
+import img2 from "/Home/limited_times_offers/img2.webp"
+import img3 from "/Home/limited_times_offers/img3.webp"
 import productsData from "../components/ProductsFetchData"
 import { useNavigate } from "react-router-dom";
 

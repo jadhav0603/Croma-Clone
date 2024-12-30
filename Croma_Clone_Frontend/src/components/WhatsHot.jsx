@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../assets/images/Home/exclusive_hot_offers/img1.webp"
-import img2 from "../assets/images/Home/exclusive_hot_offers/img2.webp"
-import img3 from "../assets/images/Home/exclusive_hot_offers/img3.webp"
-import img4 from "../assets/images/Home/exclusive_hot_offers/img4.webp"
+import img1 from "/Home/exclusive_hot_offers/img1.webp"
+import img2 from "/Home/exclusive_hot_offers/img2.webp"
+import img3 from "/Home/exclusive_hot_offers/img3.webp"
+import img4 from "/Home/exclusive_hot_offers/img4.webp"
 import { useNavigate } from "react-router-dom";
 import productsData from "../components/ProductsFetchData"
 
