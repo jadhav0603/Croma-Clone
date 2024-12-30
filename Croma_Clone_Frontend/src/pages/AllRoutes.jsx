@@ -4,8 +4,8 @@ import BankOffersPage from "./BankOffersPage.jsx";
 import FetchedResults from "./FetchedResults.jsx"
 import SelectedProduct from "./SelectedProduct.jsx"
 import LoginModal from "../components/LoginModal.jsx";
-import Carts from "./Carts"
-import Payment from "./payment.jsx";
+import Carts from "./Carts.jsx"
+import Payment from "./Payment.jsx";
 import SearchedData from "./SearchedData.jsx";
 
 function AllRoutes(){
