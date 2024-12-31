@@ -1,27 +1,24 @@
-.footer{
-    background-color: #1d1d1d;
-    color: white;
-    display: flex;
-    justify-content: center;
-    
-  }
-  
   .bottom{
-    width:100vw;
+    max-width:99vw;
     background-color: #1d1d1d;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     bottom: 0;
   }
   
   .footer{
-    width:75vw;
+    min-width:75vw;
     font-size: 1vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
   
   .footer > div {
-   width: 20vw;
+   width: 25vw;
    padding: 2vw;
   }
   
@@ -41,13 +38,37 @@
     display: flex;
     justify-content: space-around;
   }
+
+  /* .usefulListDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+    border:1px solid red;
+  } */
+
+  /* .productDiv{
+
+  } */
   
   .footerList{
-    margin-left: -3vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .footerList > ul {
+    width:8vw;
+    display: flex;
+    flex-direction: column;
+    
   }
   
   .footerList >ul > li{
-    padding :5px;
+    padding :5px 0px;
+    width: 11vw;
+    margin-left: -40px;
   }
   
   .footerList >ul > li:hover{

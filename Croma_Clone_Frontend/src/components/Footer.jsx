@@ -21,9 +21,9 @@ function Footer(){
 
                 <hr />
 
-                <div>
+                <div className="usefulListDiv">
                     <h5>USEFUL LINKS</h5>
-                    <div style={{display: "flex", flexWrap:"wrap"}} className="footerList">
+                    <div className="footerList">
                         <ul style={{textDecoration: "none", listStyle: "none"}}>
                             <li>About Croma</li>
                             <li>Help And Support</li>
@@ -50,9 +50,9 @@ function Footer(){
 
                 <hr />
 
-                <div>
+                <div className="productDiv">
                     <h5>Products</h5>
-                    <div style={{display: "flex" ,flexWrap:"wrap"}} className="footerList">
+                    <div className="footerList">
                         <ul style={{textDecoration: "none", listStyle:"none"}}>
                             <li>Televisions & Accessories</li>
                             <li>Home Appliances</li>

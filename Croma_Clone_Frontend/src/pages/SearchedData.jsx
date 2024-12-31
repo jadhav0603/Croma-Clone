@@ -12,7 +12,6 @@ function SearchedData(){
     return(
         <>
         <div className="searchContainer">
-            <h1>welcome to searched page</h1>
             <Cards response={data[0].data} />
         </div>
             <Footer />
